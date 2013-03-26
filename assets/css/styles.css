@@ -20,3 +20,15 @@ h1, h2, h3, h4, h5 {
 .content {
 	padding:0 20px 0 20px;
 }
+
+.sidebar {
+	padding-top: 50px;
+}
+
+.sidebar ul li {
+	width:110px;
+}
+
+.span10 {
+	padding-top: 25px;
+}
