@@ -1,6 +1,6 @@
 body {
 	font-family: "Open Sans", sans-serif;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 header {
@@ -31,4 +31,33 @@ h1, h2, h3, h4, h5 {
 
 .span10 {
 	padding-top: 25px;
+}
+
+
+.portfolio_item {
+	height: 250px;
+	border-bottom: 1px solid black;
+}
+
+.portfolio_item img {
+	padding:10px;
+}
+
+.portfolio_text, .portfolio_text_right {
+	padding:10px;
+	width:500px;
+	font-size: 18px;
+}
+
+.portfolio_text_right {
+	float: right;
+}
+
+.img_left {
+	width: 250px;
+	float:left;
+}
+
+.img_right {
+	float:right;
 }

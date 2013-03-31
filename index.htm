@@ -6,23 +6,37 @@
 	<link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="/favicon.ico">
+	<!--<link rel="script" href="assets/js/script.js" type="text/javascript"/>-->
+	
 	<!-- Bootstrap -->
 	<link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
 </head>
 <body>
 	<div class="container"><div class="row">
+
+		<!--SIDEBAR-->
+
 		<div class="span2 sidebar">
-			<img src="assets/images/sidebar_logo.png" alt=""/>
+			
 			<ul class="nav nav-list bs-docs-sidenav affix">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">Resume</a></li>
+				<img src="assets/images/sidebar_logo.png" alt=""/>
+				<li id="homeBtn" onclick="showDiv('home')"><a href="#">Home</a></li>
+				<li id="portfolioBtn" onclick="showDiv('portfolio')"><a href="#">Portfolio</a></li>
+				<li id="resumeBtn" onclick="showDiv('resume')"><a href="#">Resume</a></li>
 			</ul>
 		</div>
+
+		<!--MAIN CONTENT-->
+
 		<div class="span10">
 			<header>
 				<!--<img src="./assets/images/header_logo.png" alt="header_logo" />-->
 			</header>
+
+
+			<!--HOME PAGE-->
+
+
 			<div id="homeContent">
 				<div id="myCarousel" class="carousel slide">
 					<ol class="carousel-indicators">
@@ -52,7 +66,7 @@
 					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 				</div>
 				<div class="content">
-					<h1>Header 1</h1>
+					<h1>Welcome</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -61,12 +75,72 @@
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 				</div>
+
+
+				<!--PORTFOLIO PAGE-->
+
+
 				<div id="portfolioContent">
+					<div class="portfolio_item">
+						<div class="img_left"><img src="assets/images/portfolio_thumbnail.png"/></div>
+						<div class="portfolio_text_right">
+							<h3>Title</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="img_right"><img src="assets/images/portfolio_thumbnail.png"/></div>
+						<div class="portfolio_text">
+							<h3>Title</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="img_left"><img src="assets/images/portfolio_thumbnail.png"/></div>
+						<div class="portfolio_text_right">
+							<h3>Title</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="img_right"><img src="assets/images/portfolio_thumbnail.png"/></div>
+						<div class="portfolio_text">
+							<h3>Title</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="img_left"><img src="assets/images/portfolio_thumbnail.png"/></div>
+						<div class="portfolio_text_right">
+							<h3>Title</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							</div>
+					</div>
+					<div class="portfolio_item">
+						<div class="img_right"><img src="assets/images/portfolio_thumbnail.png"/></div>
+						<div class="portfolio_text">
+							<h3>Title</h3>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="assets/js/scripts.js"></script>
 	</body>
 	</html>
