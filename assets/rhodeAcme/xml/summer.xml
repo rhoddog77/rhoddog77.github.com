@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<season>
+	<trip>
+		<name>Patagonia</name>
+		<secondName>Argentina</secondName>
+		<price>1500</price>
+		<rating>5</rating>
+		<picture>Images/smallImages/patagonia.png</picture>
+		<pictureLarge>Images/largeImages/patagonia.png</pictureLarge>
+		<description>Follow winter to the Southern Andes to experience cool summer adventures on the world’s highest mountain range outside of Asia. Mid-June to late September resorts in Argentina's Patagonia region (accessible via direct flights from Buenos Aries) offer beginner-to-expert downhill terrain; deep, dry powder; open bowl, glacier and gladed tree skiing; and snowboarding.
+		</description>
+		<comments>
+			<comment>
+				<name>George</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>Shred or die!! Best summer snowboarding EVER!</desc>
+				<rating>5</rating>
+			</comment>
+			<comment>
+				<name>Alex</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>Decent. Nothing special.
+				</desc>
+				<rating>3</rating>
+			</comment>
+			<comment>
+				<name>Dave</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>I thought this vacation destination was really nice. Realize that it is winter down there this time of year!
+				</desc>
+				<rating>4</rating>
+			</comment>
+		</comments>
+	</trip>
+
+	<trip>
+		<name>San Juan</name>
+		<secondName>Islands</secondName>
+		<price>450</price>
+		<rating>3</rating>
+		<picture>Images/smallImages/sanjuan.png</picture>
+		<pictureLarge>Images/largeImages/sanjuan.png</pictureLarge>
+		<description>Summer in Washington’s San Juan Islands is all about the weather, whales, and water. The Olympic Peninsula’s rain shadow effect (basically, the mountains block rain-producing weather systems) produces dry, clear, comfortable days on the archipelago’s four named islands—San Juan, Orcas, Lopez, and Shaw. Hike in Lime Kiln Point State Park on the west side of San Juan for shore-based orca whale watching or join a Sea Quest kayak tour for a porpoise-level view. Ferry hop to Lopez for leisurely biking, then spend the night on Orcas at Turtleback Farm Inn, a bucolic working farm bordering the 1,576-acre Turtleback Mountain Preserve. The islands are accessible via direct 30-to-45-minute flight from Seattle, or choose the drive-on Washington State Ferry to travel along the San Juan Islands Scenic Byway. The route follows traditional Coast Salish tribal canoe channels via marine highway from Anacortes to San Juan, then continues as two separate driving tours on San Juan and Orcas. Ferries are packed in summer, so arrive early and stay patient, especially on the eastbound ride back to reality.
+		</description>
+		<comments>
+			<comment>
+				<name>Jackie</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>It was sweet! The islands were beautiful and the price wasn't too bad either!
+				</desc>
+				<rating>4</rating>
+			</comment>
+			<comment>
+				<name>Van</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>I went on this vacation with my wife and 2 kids. The kids were horrible when we went hiking so beware of that! Other that our kid's behavior, it was a decent vacation.
+				</desc>
+				<rating>3</rating>
+			</comment>
+		</comments>
+	</trip>
+
+	<trip>
+		<name>Montpellier</name>
+		<secondName>France</secondName>
+		<price>1200</price>
+		<rating>5</rating>
+		<picture>Images/smallImages/montpellier.png</picture>
+		<pictureLarge>Images/largeImages/montpellier.png</pictureLarge>
+		<description>Montpellier is ideal for a Mediterranean holiday in the South of France. A few hours from Paris, Montpellier offers holiday rentals, fine wines, restaurants, hotels, bed &amp; breakfasts and much more. July and August in Montpellier is the hottest month of the Year. Its temperature range from 80 and 90 temperatures all day long, these months were the summer season of Montpellier. Though, it kind a hot here in Montpellier, tourists from all around the world flock in Montpellier since the only thing the make this place more comforting during summer is the ocean breeze that blows down from the oceans of Montpellier. Many of the tourists visited Montpellier appreciates the weather especially during the night time. Temperature during this time plugged down to 60 temperatures. It is best time spending at the beaches of Montpellier.
+		</description>
+		<comments>
+			<comment>
+				<name>Jordan</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>I have been here twice and absolutely love it! Southern France is such an amazing place to be, not to mention the Mediterranean coast and countless festivals!
+				</desc>
+				<rating>5</rating>
+			</comment>
+			<comment>
+				<name>Jesse</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>I came here once on a week long trip. I loved it so much that I moved here! You have to visit this place!!!
+				</desc>
+				<rating>5</rating>
+			</comment>
+		</comments>
+	</trip>
+
+</season>

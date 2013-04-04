@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<season>
+	<trip>
+		<name>Miami</name>
+		<secondName>Florida</secondName>
+		<price>575</price>
+		<rating>5</rating>
+		<picture>Images/smallImages/miami.png</picture>
+		<pictureLarge>Images/largeImages/miami.png</pictureLarge>
+		<description>Although Miami can be pricey and has a reputation for being uber-exclusive, writers say that the Florida city is surprisingly accessible. Nightclubs and bars pack the colorful streets and encourage nightowls to stay out all night. By day, the long stretches of beautiful sand and clear waters are nice places to work on your tan and to recover from the previous evening's festivities.
+		</description>
+		<comments>
+			<comment>
+				<name>Thomas</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>The beaches are absolutely beautiful! Spring break all the way!!! WOOO!</desc>
+				<rating>5</rating>
+			</comment>
+			<comment>
+				<name>Maria</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>Do not come here during spring break unless you want to be surrounded, disturbed, and annoyed by TONS of college partiers!
+				</desc>
+				<rating>2</rating>
+			</comment>
+		</comments>
+	</trip>
+
+	<trip>
+		<name>Bahama</name>
+		<secondName>Islands</secondName>
+		<price>760</price>
+		<rating>4</rating>
+		<picture>Images/smallImages/bahamas.png</picture>
+		<pictureLarge>Images/largeImages/bahamas.png</pictureLarge>
+		<description>The Bahamian islands have blossomed into a tropical Eden, alluring throngs of visitors to their white-washed shores, duty-free shops, fishing and scuba diving excursions and luxurious resort lifestyle. The families that flock here tend to indulge in the extensive diversions of the lavish mega resorts, but this diverse island chain also offer a range of activities away from the hotel zone: Nature enthusiasts explore the offshore reefs and wildlife preserves; golf lovers tee up on the numerous par-72 courses; even bargain hunters patrol the marketplaces for the best duty-free deals. No wonder the Bahamas islands have become popular destinations in the Caribbean.
+		</description>
+		<comments>
+			<comment>
+				<name>Michael</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>It was sweet! The islands were so much fun to visit and the weather was perfect!
+				</desc>
+				<rating>5</rating>
+			</comment>
+			<comment>
+				<name>Justin</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>Too hot! I went here over spring break and got heat stroke a couple times. I guess I was just used to cold winter weather.
+				</desc>
+				<rating>3</rating>
+			</comment>
+		</comments>
+	</trip>
+
+	<trip>
+		<name>Puerto Vallarta</name>
+		<secondName>Mexico</secondName>
+		<price>945</price>
+		<rating>4</rating>
+		<picture>Images/smallImages/puerto.png</picture>
+		<pictureLarge>Images/largeImages/puerto.png</pictureLarge>
+		<description>This is more than just a coastal resort getaway. Somehow Puerto Vallarta -- also known as "Vallarta" or just "PV" -- maintains a small-town ambience, while still boasting one of the most unique and sophisticated oceanfronts in Mexico. The dining options and the hotel choices reflect more of the same -- you'll find both elegance and efficiency mingled together within the hotel and restaurant areas.
+		</description>
+		<comments>
+			<comment>
+				<name>Lela</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>This was a great vacation. It was nice to get away from my busy life for a while. Beautiful area!
+				</desc>
+				<rating>4</rating>
+			</comment>
+		</comments>
+	</trip>
+
+</season>

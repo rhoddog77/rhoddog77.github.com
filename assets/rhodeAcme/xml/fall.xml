@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<season>
+	<trip>
+		<name>New York City</name>
+		<secondName>New York</secondName>
+		<price>650</price>
+		<rating>4</rating>
+		<picture>Images/smallImages/nyc.png</picture>
+		<pictureLarge>Images/largeImages/nyc.png</pictureLarge>
+		<description>"Autumn in New York" isn’t just a popular jazz tune; it’s also our top recommendation for travel this season. The Big Apple is never lovelier than in fall: The temperatures have descended from summer’s oppressive heat; a new theater season begins on Broadway (almost 20 shows are scheduled to open between late September and early December); and fall foliage is abundant in Central Park. Just to sweeten the deal, airfares to New York are down 25 percent from last year, and hotel rates are down 29 percent.
+		</description>
+		<comments>
+			<comment>
+				<name>Peter</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>New York is like home away from home for me. You can get great deals if you go during the fall season leaving you with no other option!</desc>
+				<rating>5</rating>
+			</comment>
+			<comment>
+				<name>Sarah</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>I really don't like NYC. Way too busy, noisy, and things can get expensive.
+				</desc>
+				<rating>2</rating>
+			</comment>
+			<comment>
+				<name>Andreas</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>Not bad, there is a lot to do in New York. If you have never been here, it is well worth the trip!
+				</desc>
+				<rating>4</rating>
+			</comment>
+		</comments>
+	</trip>
+
+	<trip>
+		<name>Maine</name>
+		<secondName>U.S.A.</secondName>
+		<price>500</price>
+		<rating>5</rating>
+		<picture>Images/smallImages/maine.png</picture>
+		<pictureLarge>Images/largeImages/maine.png</pictureLarge>
+		<description>Summer in Washington’s San Juan Islands is all about the weather, whales, and water. The Olympic Peninsula’s rain shadow effect (basically, the mountains block rain-producing weather systems) produces dry, clear, comfortable days on the archipelago’s four named islands—San Juan, Orcas, Lopez, and Shaw. Hike in Lime Kiln Point State Park on the west side of San Juan for shore-based orca whale watching or join a Sea Quest kayak tour for a porpoise-level view. Ferry hop to Lopez for leisurely biking, then spend the night on Orcas at Turtleback Farm Inn, a bucolic working farm bordering the 1,576-acre Turtleback Mountain Preserve. The islands are accessible via direct 30-to-45-minute flight from Seattle, or choose the drive-on Washington State Ferry to travel along the San Juan Islands Scenic Byway. The route follows traditional Coast Salish tribal canoe channels via marine highway from Anacortes to San Juan, then continues as two separate driving tours on San Juan and Orcas. Ferries are packed in summer, so arrive early and stay patient, especially on the eastbound ride back to reality.No place is more strongly associated with fall colors than New England, and the state of Maine — less densely populated and more tree-filled than its neighbors — might be the best of all. You can even catch a glimpse of a moose or other wildlife as you drive along a winding country road, or hunt for antiques in Ogunquit or any of the numerous quaint towns along the coast. The most popular gateway to Maine, if you’re flying, is Boston, where airfares are down 23 percent this fall; you might want to stay there for a few days too, since hotel rates are down 26 percent.
+		</description>
+		<comments>
+			<comment>
+				<name>Regina</name>
+				<picture>Images/commentHolder.png</picture> 
+				<desc>Absolutely gorgeous! I am definitely coming back here in the near future. 
+				</desc>
+				<rating>5</rating>
+			</comment>
+			<comment>
+				<name>Malerie</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>If you love nature, going on walks, beautiful fall colors, this place is for you. I came here with my boyfriend and we both had such a great time!
+				</desc>
+				<rating>5</rating>
+			</comment>
+		</comments>
+	</trip>
+
+	<trip>
+		<name>Maui</name>
+		<secondName>Hawii</secondName>
+		<price>100</price>
+		<rating>4</rating>
+		<picture>Images/smallImages/maui.png</picture>
+		<pictureLarge>Images/largeImages/maui.png</pictureLarge>
+		<description>There’s never a bad time to visit Maui, where airfares are down 13 percent this fall; it’s just that the island is at its most fun in autumn. Maui’s culture comes alive throughout September and October at the Festivals of Aloha. And in November, sports fans will want to check out the Maui Invitational, the premier preseason event in men’s college basketball. Besides, if the fall chill has you longing to laze on the beach, Maui’s your place: The average November high is in the mid-80s
+		</description>
+		
+		<comments>
+			<comment>
+				<name>Daniel</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>Hawii is such a great place for a vacation. Who wouldn't want to spend time on a tropical island? I did have a poor hotel :/
+				</desc>
+				<rating>4</rating>
+			</comment>
+		</comments>
+	</trip>
+
+</season>

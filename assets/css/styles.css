@@ -1,14 +1,22 @@
 body {
-	font-family: "Open Sans", sans-serif;
-	font-size: 24px;
+	font-family: "Open Sans", sans-serif !important;
+	font-size: 18px !important;
+	color:#555555 !important;
 }
 
 header {
-	border-bottom: 2px solid #CCCCCC;
+	
 }
 
-h1, h2, h3, h4, h5 {
-	font-family: "Droid Serif", serif;
+footer {
+	padding-top: 20px;
+	margin-top: 20px;
+	text-align: right;
+	border-top: 1px solid #DDDDDD;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+	font-family: 'Oxygen', sans-serif !important;
 }
 
 .container {
@@ -19,10 +27,16 @@ h1, h2, h3, h4, h5 {
 
 .content {
 	padding:0 20px 0 20px;
+	border-top: 1px solid #DDDDDD;
+}
+
+.selected {
+	background-color: #eeeeee;
 }
 
 .sidebar {
 	padding-top: 50px;
+	text-align: right;
 }
 
 .sidebar ul li {
@@ -35,8 +49,8 @@ h1, h2, h3, h4, h5 {
 
 
 .portfolio_item {
-	height: 250px;
-	border-bottom: 1px solid black;
+	height: 275px;
+	border-top: 1px solid #DDDDDD;
 }
 
 .portfolio_item img {
@@ -60,4 +74,64 @@ h1, h2, h3, h4, h5 {
 
 .img_right {
 	float:right;
+}
+
+
+
+
+figure { 
+  width: 200px; 
+  background: white;
+  border: 5px solid white; 
+  -webkit-box-shadow: 0 3px 10px #ccc; 
+  -moz-box-shadow: 0 3px 10px #ccc;
+  -webkit-transition: all 0.7s ease; 
+  -moz-transition: all 1s ease;
+  position: relative;
+}
+
+.figA {
+	-webkit-transform: rotate(5deg); 
+  -moz-transform: rotate(5deg);
+  margin-top: 25px;
+}
+.figB {
+	-webkit-transform: rotate(-5deg); 
+  -moz-transform: rotate(-5deg);
+  margin:25px 0 0 25px;
+}
+
+figure img { 
+  width: 100%; /* Scale down */
+}
+
+figure.figA:hover {
+  -webkit-transform: rotate(-1deg); -moz-transform: rotate(1deg);
+  -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+}
+
+figure.figA:focus {
+  outline: none;
+  -webkit-transform: rotate(-3deg) scale(2.5); -moz-transform: rotate(-3deg) scale(2.5);
+   -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+  z-index: 9999;
+  position: fixed;
+  top: 40%;
+  left: 40%;
+
+}
+
+figure.figB:hover {
+  -webkit-transform: rotate(1deg); -moz-transform: rotate(-1deg);
+  -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+}
+
+figure.figB:focus {
+  outline: none;
+  -webkit-transform: rotate(3deg) scale(2.5); -moz-transform: rotate(3deg) scale(2.5);
+   -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+  z-index: 9999;
+  position: fixed;
+  top: 40%;
+  left: 40%;
 }

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<season>
+	<trip>
+		<name>Lusanne</name>
+		<secondName>Switzerland</secondName>
+		<price>1500</price>
+		<rating>5</rating>
+		<picture>Images/smallImages/lusanne.png</picture>
+		<pictureLarge>Images/largeImages/lusanne.png</pictureLarge>
+		<description>There’s a reason Coco Chanel retired at the Beau-Rivage Palace: The five-star luxury property is a Swiss slice of heaven. Perched on the shores of Lake Geneva—just 30 minutes from the Geneva airport—this property has been a go-to destination since 1861. But while the palatial layout and impeccable service recall a lost era, the outrageous 15,000-square-foot Cinq Mondes spa and namesake restaurant of Michelin three-star chef Anne-Sophie Pic have a thoroughly modern appeal. This winter, for the second year, the hotel will transform its terrace into an ice rink and serve mulled wine and raclette in a nearby chalet.
+		</description>
+		<comments>
+			<comment>
+				<name>Mary</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>Best vacation I have ever had. This was the perfect place to get away from the chaos that is my life. Very relaxing and worth it if you have the money!</desc>
+				<rating>5</rating>
+			</comment>
+			<comment>
+				<name>Charles</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>Wow is all i can say! Go here, now!
+				</desc>
+				<rating>5</rating>
+			</comment>
+			<comment>
+				<name>Lisa</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>Quite expensive, totally worth it!
+				</desc>
+				<rating>4</rating>
+			</comment>
+		</comments>
+	</trip>
+
+	<trip>
+		<name>Niseko</name>
+		<secondName>Japan</secondName>
+		<price>1100</price>
+		<rating>5</rating>
+		<picture>Images/smallImages/niseko.png</picture>
+		<pictureLarge>Images/largeImages/niseko.png</pictureLarge>
+		<description>Often dubbed Japan’s answer to Vail, we’d argue that Niseko is much more. With its international vibe, luxury hotels, medley of gourmet restaurants and more than 400 inches of annual snowfall, it’s any snow-bunny’s dream. This jaw-dropping ski destination has always been a point of national pride, but it didn’t hit the radar until Australian travelers began seeking its plentiful snowfall. Fortunately, Niseko’s inconvenient geography (two hours by train from Sapporo) keeps its slopes swarm-free. This month, LUXE City Guides released an iPhone application travel guide to Niseko. Its editor, Kee Foong, suggests that Departures readers may particularly enjoy staying at the Vale Niseko and dining at Kamimura, a seven- to 12-course gastronomy restaurant.
+		</description>
+		<comments>
+			<comment>
+				<name>Myra</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>This was the best vacation I have ever been on. So relaxing and fun!
+				</desc>
+				<rating>5</rating>
+			</comment>
+			<comment>
+				<name>Brian</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>This place is just as great, if not better, than Vail! Totally rocked my socks off!
+				</desc>
+				<rating>5</rating>
+			</comment>
+		</comments>
+	</trip>
+
+	<trip>
+		<name>Prague</name>
+		<secondName>Czech Republic</secondName>
+		<price>990</price>
+		<rating>4</rating>
+		<picture>Images/smallImages/prague.png</picture>
+		<pictureLarge>Images/largeImages/prague.png</pictureLarge>
+		<description>With its domed churches and narrow, cobblestoned streets, walking through Prague in the wintertime is like strolling inside a snow globe. Escape to the Mandarin Oriental Prague for warmth and refreshment. Built on the site of a 14th-century monastery, the property cleverly showcases its classic architecture. The much-loved spa, tucked inside a former Renaissance chapel, employs translucent floors in the lobby to allow guests to peek into the ruins. But while it may be tempting to stay on-site, the city’s charms—opera, crystal, architecture—are easily explored during winter. The hotel is ideally located in Mala Strana, near Prague Castle and St. Charles Bridge.
+		</description>
+		<comments>
+			<comment>
+				<name>Megan</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>This was the perfect getaway for my husband and myself. I loved the historical buildings in Prague!
+				</desc>
+				<rating>5</rating>
+			</comment>
+			<comment>
+				<name>Anedelia</name>
+				<picture>Images/commentHolder.png</picture>
+				<desc>I enjoyed Prague. I didn't enjoy getting sick on the way over there.
+				</desc>
+				<rating>3</rating>
+			</comment>
+		</comments>
+	</trip>
+
+</season>
