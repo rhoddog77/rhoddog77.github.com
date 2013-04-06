@@ -1,3 +1,7 @@
+article {
+	border-top: 1px solid #DDDDDD;
+}
+
 body {
 	font-family: "Open Sans", sans-serif !important;
 	font-size: 18px !important;
@@ -30,6 +34,20 @@ h1, h2, h3, h4, h5, h6, a {
 	border-top: 1px solid #DDDDDD;
 }
 
+.mavuCarousel {
+	width:450px;
+	padding-top: 20px;
+	float:right;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	margin:auto;
+}
+
+.carousel-caption {
+	background: rgba(0, 0, 0, 0.5) !important;
+}
+
 .selected {
 	background-color: #eeeeee;
 }
@@ -51,6 +69,7 @@ h1, h2, h3, h4, h5, h6, a {
 .portfolio_item {
 	height: 275px;
 	border-top: 1px solid #DDDDDD;
+	margin-top: -1px;
 }
 
 .portfolio_item img {
@@ -78,7 +97,7 @@ h1, h2, h3, h4, h5, h6, a {
 
 
 
-
+/*PORTFOLIO PICTURE STYLES*/
 figure { 
   width: 200px; 
   background: white;
